@@ -1,0 +1,15 @@
+{
+  "name": "prettier-issue",
+  "version": "1.0.0",
+  "description": "Prettier issue repository",
+  "main": "index.js",
+  "author": "Tatsunori Uchino <tats.u@live.jp>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  },
+  "scripts": {
+    "check-expected": "prettier -c expected.md",
+    "check-actual": "prettier -c actual.md"
+  }
+}
